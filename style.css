@@ -1,0 +1,329 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #610c4f; 
+  margin: 0;
+  padding: 0;
+  background-color: #f2ddee;
+  text-align: center;
+
+}
+.im-content
+{
+  margin: 20px auto; /* Centre l'image avec un espacement */
+
+}
+.foto{
+  width: 100%; /* L'image prend toute la largeur de son conteneur */
+  max-width: 600px; /* Largeur maximale de l'image */
+  height: auto; /* Hauteur automatique pour garder les proportions */
+}
+
+
+header {
+  background-color: #3c0633;
+  color: #fff;
+  padding: 10px 0;
+  text-align: right;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.contentPrpos{
+  width: 100%; /* Prend toute la largeur disponible */
+  margin: 50;
+  display: flex; /* Active le modèle Flexbox */
+  justify-content: space-between; /* Espace entre les éléments */
+  align-items: center; /* Aligne les éléments verticalement au centre */
+}
+.text_aprpos{
+margin-right: 20px; /* Espace entre le texte et l'image */
+background-color: #f2ddee; /* Couleur de fond pour visualiser */
+border-radius: 15px; /* Arrondi des coins */
+text-align: justify;
+color: #0c0c0c;
+height:60%;
+margin: 30;
+float: left; /* Positionne Ã  gauche */
+width: 50%; /* Ajustez selon vos besoins, moins la marge */
+align-items: center; /* Centre horizontalement */
+float: center; /* Positionne au centre */
+
+}
+.cv{
+  text-align: center;
+
+}
+.highlight {
+  color: darkmagenta;
+}
+
+
+.project {
+
+text-align: center;
+color: #3a022e; 
+border-radius: 15px; /* Arrondi des coins */
+width: 30%; /* Prend toute la largeur disponible */
+height: 20%;
+margin: 10;
+margin-right: 10px; /* Espacement entre le texte et l'image */
+background-color: #bd96b2; /* Couleur de fond pour visualiser */
+
+}
+
+main {
+  padding: 20px;
+  text-align: justify;
+  display: flex; /* Active le modÃ¨le flexbox */
+  justify-content: space-between; /* Espace entre les Ã©lÃ©ments */
+  color: #3a022e; 
+
+  width: 100%; /* Largeur du conteneur principal */
+  overflow: hidden; /* Pour contenir les floats */
+
+}
+.contact-form {
+background-color: #bd96b2; /* Couleur de fond pour visualiser */
+float: center; /* Positionne au centre */
+width: 100%; /* Largeur du conteneur principal */
+ border-radius: 15px; /* Arrondi des coins */
+ display: flex;
+ flex-direction: column; /* Aligne les Ã©lÃ©ments en colonne */
+ align-items: center; /* Centre horizontalement */
+}
+.container{
+display: flex;
+  justify-content: space-between; /* Espace entre les divs */
+  width: 100%; /* Prend toute la largeur du formulaire */
+  max-width: 400px; /* Largeur maximale pour le conteneur */
+}
+.nom, .prenom {
+width: 40%; /* Largeur des divs */
+
+}
+
+.autres-divs {
+display: flex;
+justify-content: space-between; /* Espace entre les deux autres divs */
+width: 100%; /* Prend toute la largeur du formulaire */
+max-width: 600px; /* Largeur maximale pour le conteneur */
+}
+
+.mail, .message {
+width: 100%; /* Largeur des autres divs */
+
+}
+
+button {
+  background-color: #55143a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block; /* Pour que le lien se comporte comme un bouton */
+
+}
+.btn
+{
+    color: #fff;
+
+}
+
+button:hover {
+  background-color: #4e1144;
+  color: #fff;
+
+}
+
+
+
+.soft-category {
+float: left; /* Positionne Ã  gauche */
+width: calc(50% - 10px); /* Ajustez selon vos besoins, moins la marge */
+margin-right: 20px; /* Espace entre les deux sous-divs */
+background-color: #bd96b2; /* Couleur de fond pour visualiser */
+border-radius: 15px; /* Arrondi des coins */
+
+max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  display: flex; /* Active le modÃ¨le flexbox */
+  justify-content: space-between; /* Espace entre les Ã©lÃ©ments */
+  width: 50%; /* Largeur du conteneur principal */
+
+}
+
+
+
+.hard-category {
+float: left; /* Changez en float: left pour Ã©viter le problÃ¨me de positionnement */
+width: calc(50% - 10px); /* Ajustez selon vos besoins, moins la marge */
+background-color: #bd96b2; /* Couleur de fond pour visualiser */
+border-radius: 15px; /* Arrondi des coins */
+
+max-width: 1000px;
+margin-left: 20px auto;
+padding: 20px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+text-align: center;
+display: flex; /* Active le modÃ¨le flexbox */
+justify-content: space-between; /* Espace entre les Ã©lÃ©ments */
+width: 50%; /* Largeur du conteneur principal */
+
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+.category {
+  width: 48%;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+.skill span {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 14px;
+  border: #55143a;
+
+}
+
+.bar {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+    flex-grow: 1; /* Permet Ã  la barre de progresser */
+    margin-left: 10px; /* Espacement entre le texte et la barre */
+}
+
+.progress {
+  height: 100%;
+  background: #68145e;
+  border-radius: 4px;
+}
+.soft-category {
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Ajustez Ã  votre convenance */
+  max-width: 600px; /* Limite maximale */
+  min-width: 200px; /* Limite minimale */
+  height: auto; /* Hauteur automatique selon le contenu */
+  padding: 10px; /* Espacement interne */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans les dimensions */
+  margin: 0 auto; /* Centre la div si elle a une largeur fixe */
+}
+
+
+.hard-category {
+display: flex;
+flex-direction: column;
+}
+
+
+.progress {
+  background-color: #55143a; /* Couleur de la barre de progression */
+  height: 20px; /* Hauteur de la barre */
+}
+.soft-category {
+display: flex;
+flex-direction: column; /* Aligne les compÃ©tences verticalement */
+}
+
+.hard-category {
+display: flex;
+flex-direction: column; /* Aligne les compÃ©tences verticalement */
+width: 50%; /* Ajustez Ã  votre convenance */
+  max-width: 600px; /* Limite maximale */
+  min-width: 200px; /* Limite minimale */
+  height: auto; /* Hauteur automatique selon le contenu */
+  padding: 10px; /* Espacement interne */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans les dimensions */
+  margin: 0 auto; /* Centre la div si elle a une largeur fixe */
+}
+
+
+
+.skill {
+display: flex;
+flex-direction: column; /* Empile le texte et la barre de progression */
+margin: 30px;
+margin-bottom: 25px;
+text-align: left;
+justify-content: space-between;
+}
+
+.skill span {
+margin-bottom: 5px; /* Espacement entre le texte et la barre */
+}
+
+.bar {
+width: 100%; /* La barre prend toute la largeur disponible */
+background-color: #e0e0e0; /* Couleur de fond de la barre */
+}
+
+.progress {
+background-color: #55143a; /* Couleur de la barre de progression */
+height: 20px; /* Hauteur de la barre */
+}
+.main-section {
+display: flex; /* Utilise Flexbox pour la mise en page */
+justify-content: space-between; /* Espace entre les Ã©lÃ©ments */
+align-items: flex-start; /* Aligne les Ã©lÃ©ments en haut */
+text-align: justify; /* Justifie le texte */
+
+}
+
+.container {
+display: flex; /* Conteneur flexible pour le texte et l'image */
+border-radius: 15px; /* Arrondi des coins */
+width: 50%; /* Prend toute la largeur disponible */
+height: 40%;
+margin: 10;
+margin-right: 40px; /* Espacement entre le texte et l'image */
+}
+
+.profile-img {
+flex-shrink: 0; /* EmpÃªche l'image de rÃ©trÃ©cir */
+width: 300px; /* Largeur fixe pour l'image */
+height: 300px; /* Hauteur fixe pour l'image */
+border-radius: 50%; /* Transforme l'image en cercle */
+object-fit: cover; /* Assure que l'image couvre le cercle sans dÃ©formation */
+border: 2px solid hwb(326 5% 72%); /* Optionnel : ajoute une bordure autour du cercle */
+
+}
